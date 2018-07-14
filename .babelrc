@@ -1,0 +1,42 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "modules": false,
+                "targets": {
+                    "browsers": [
+                        "last 2 versions",
+                        "ie >= 11",
+                        "safari >= 10"
+                    ]
+                }
+            }
+        ],
+        "@babel/react"
+    ],
+    "plugins": [
+        [
+            "lodash",
+            {
+                "id": [
+                    "lodash",
+                    "semantic-ui-react"
+                ]
+            },
+            "react-hot-loader/babel"
+        ]
+    ],
+    "env": {
+        "development": {
+            "plugins": [
+                "react-hot-loader/babel"
+            ]
+        },
+        "production": {
+            "plugins": [
+                "transform-react-remove-prop-types"
+            ]
+        }
+    }
+}
