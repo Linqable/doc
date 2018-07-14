@@ -2,7 +2,6 @@ import * as React from 'react';
 import { Grid } from 'semantic-ui-react';
 import Sidemenu from './sidemenu';
 
-
 export default () => (
     <div>
         <Sidemenu />
