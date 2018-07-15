@@ -1,6 +1,6 @@
 {
   "name": "linqable.doc",
-  "version": "1.7.14",
+  "version": "1.7.15",
   "description": "Linqable repository documentation site",
   "main": "./dist/app.js",
   "repository": "https://github.com/0xF6/linqable.doc.git",
@@ -58,7 +58,7 @@
   },
   "scripts": {
     "build": "webpack",
-    "watch": "webpack-dev-server --hot",
+    "watch": "webpack --watch",
     "test": "echo 0"
   }
 }

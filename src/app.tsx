@@ -8,6 +8,7 @@ import Introduction from './components/Introduction';
 import Comparison from './components/Comparison';
 import CodeExample from './components/CodeExample';
 import DocManager from './components/DocManager';
+import Footer from './components/Footer';
 
 
 
@@ -21,6 +22,7 @@ export default class App extends Component {
                         <AppHeader />
                         <Introduction />
                         <DocManager />
+                        <Footer />
                     </Segment>
                 </Container>
             </AppContainer>

@@ -1,9 +1,9 @@
 module.exports = {
     entry: "./src/index.tsx",
-    mode: "development",
+    mode: "production",
     output: {
         filename: "app.js",
-        path: __dirname + "/dist"
+        path: __dirname + "/public"
     },
     devtool: "source-map",
     resolve: {
@@ -36,6 +36,6 @@ module.exports = {
         "react-dom": "ReactDOM"
     },
     devServer: {
-        contentBase: './dist'
+        contentBase: './public'
     }
 };
