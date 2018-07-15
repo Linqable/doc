@@ -11,10 +11,17 @@
     "sourceMap": true,
     "allowJs": true,
     "jsx": "react",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "typing"
+    ]
   },
   "include": [
-    "./src/**/*"
+    "./src/**/*",
+    "./**/*.json"
   ],
   "exclude": [
     "node_modules",
