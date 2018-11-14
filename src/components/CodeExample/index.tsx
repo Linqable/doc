@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Header, Message, Icon } from "semantic-ui-react";
 import Comparison from "../Comparison";
-
 function renderTitle(title) {
     if (title == null)
         return <div />;
@@ -40,7 +39,7 @@ export default ({ src, language = "sh", title = null, desc = null, warning = nul
         <div>
             {renderTitle(title)}
             {renderDesc(desc)}
-            <Comparison stacked={warning == null && info == null} source={src} language={language} />
+            <Comparison stacked={warning == null && info == null} source={src} language={language.toLowerCase()} />
             {renderWarning(warning)}
             {renderInfo(info)}
             <br />

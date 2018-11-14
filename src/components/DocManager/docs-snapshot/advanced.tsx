@@ -11,29 +11,29 @@ export default class AdvanedApi extends Component {
                 <Header as='h2'>
                     Advanced API
                 </Header>
-                <CodeExample title="Transpose" src={AdvancedExamples.Transpose}
+                <CodeExample language="TypeScript"  title="Transpose" src={AdvancedExamples.Transpose}
                     desc="Transposes the rows of a sequence into columns." />
-                <CodeExample title="Evaluate" src={AdvancedExamples.Evaluate}
+                <CodeExample language="TypeScript"  title="Evaluate" src={AdvancedExamples.Evaluate}
                     desc="Returns a sequence containing the values resulting from invoking (in order) each function in the source sequence of functions." />
-                <CodeExample title="Acquire" src={AdvancedExamples.Acquire}
+                <CodeExample language="TypeScript"  title="Acquire" src={AdvancedExamples.Acquire}
                     desc="Ensures that a source sequence of objects are all acquired successfully. If the acquisition of any one fails then those successfully acquired till that point are delete" />
-                <CodeExample title="Consume" src={AdvancedExamples.Consume}
+                <CodeExample language="TypeScript"  title="Consume" src={AdvancedExamples.Consume}
                     desc="Completely consumes the given sequence. This method uses immediate execution, and doesn't store any data during execution" />
-                <CodeExample title="Batch" src={AdvancedExamples.Batch}
+                <CodeExample language="TypeScript"  title="Batch" src={AdvancedExamples.Batch}
                     desc="Batches the source sequence into sized buckets." />
-                <CodeExample title="MaxBy" src={AdvancedExamples.MaxBy}
+                <CodeExample language="TypeScript"  title="MaxBy" src={AdvancedExamples.MaxBy}
                     desc="Returns the maxima (maximal elements) of the given sequence, based on the given projection." />
-                <CodeExample title="MinBy" src={AdvancedExamples.MinBy}
+                <CodeExample language="TypeScript"  title="MinBy" src={AdvancedExamples.MinBy}
                     desc="Returns the minima (minimal elements) of the given sequence, based on the given projection." />
-                <CodeExample title="Exclude" src={AdvancedExamples.Exclude}
+                <CodeExample language="TypeScript"  title="Exclude" src={AdvancedExamples.Exclude}
                     desc="Excludes elements from a sequence starting at a given index" />
-                <CodeExample title="Flatten" src={AdvancedExamples.Flatten}
+                <CodeExample language="TypeScript"  title="Flatten" src={AdvancedExamples.Flatten}
                     desc="Flattens a sequence containing arbitrarily-nested sequences." />
-                <CodeExample title="Pairwise" src={AdvancedExamples.Pairwise}
+                <CodeExample language="TypeScript"  title="Pairwise" src={AdvancedExamples.Pairwise}
                     desc="Returns a sequence resulting from applying a function to each element in the source sequence and its predecessor, with the exception of the first element which is only returned as the predecessor of the second element." />
-                <CodeExample title="Pipe" src={AdvancedExamples.Pipe}
+                <CodeExample language="TypeScript"  title="Pipe" src={AdvancedExamples.Pipe}
                     desc="Executes the given action on each element in the source sequence and yields it." />
-                <CodeExample title="Lag" src={AdvancedExamples.Lag}
+                <CodeExample language="TypeScript"  title="Lag" src={AdvancedExamples.Lag}
                     desc="Produces a projection of a sequence by evaluating pairs of elements separated by a negative offset." />
             </Segment>
         );

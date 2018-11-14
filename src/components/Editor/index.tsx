@@ -1,12 +1,13 @@
 import * as React from "react";
 import AceEditor from 'react-ace'
-import * as ace from 'brace'
-import 'brace/ext/language_tools'
-import 'brace/mode/typescript'
-import 'brace/mode/javascript'
-import 'brace/mode/sh'
-import 'brace/mode/html'
-import 'brace/theme/tomorrow'
+import * as ace from 'brace';
+import 'brace/ext/language_tools';
+import 'brace/mode/typescript';
+import 'brace/mode/javascript';
+import 'brace/mode/sh';
+import 'brace/mode/html';
+import 'brace/theme/tomorrow';
+
 export default (props) => {
     const { id, mode, value, ...rest } = props
 

@@ -103,10 +103,10 @@ let array2 = ["Uranium", "Iridium", "Iridium", "Plutonium"];
 /* ... */
 
 array1.Union(array2) // => ["Alkaloid", "Protein", "Chlorophyll", "Uranium", "Iridium", "Plutonium"]`;
-    public static Zip = 'let woman = [ "Chtholly", "Nephren" ];' +
-        'let man   = [ "Willem", "Willem" ];' +
-        'woman.Zip(man, (w, m) => `${w} love ${m}`) // => ["Chtholly love Willem", "Nephren love Willem"]';
-    public static SingleOrDefault = `let array = [{synthesis: "Nuclear"}, {synthesis: "Thermonuclear"}]
+public static Zip = `let woman = [ "Chtholly", "Nephren" ];
+let man   = [ "Willem", "Willem" ];
+woman.Zip(man, (w, m) => \`\${w} love \${m}\`) // => ["Chtholly love Willem", "Nephren love Willem"]`;
+public static SingleOrDefault = `let array = [{synthesis: "Nuclear"}, {synthesis: "Thermonuclear"}]
 
 array.Single() // => Throw Error
 

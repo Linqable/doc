@@ -29,9 +29,9 @@ export default class DocManager extends React.Component {
                         onClick={this.handleItemClick}
                     />
                     <Menu.Item
-                        id="adv"
+                        id="advanced"
                         name='Advanced API'
-                        active={activeItem === 'adv'}
+                        active={activeItem === 'advanced'}
                         onClick={this.handleItemClick}
                     />
                 </Menu>
@@ -42,7 +42,7 @@ export default class DocManager extends React.Component {
     renderDoc() {
         const { activeItem } = this.state
         switch (activeItem) {
-            case "adv": return (<AdvancedApi />);
+            case "advanced": return (<AdvancedApi />);
             case "std": return (<StandardApi />);
             case "usg": return (<Home />);
         }
